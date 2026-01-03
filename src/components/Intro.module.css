@@ -1,0 +1,101 @@
+.intro {
+    background: rgb(234, 247, 244);
+    padding: 5rem 1.5rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* heading */
+.title {
+    color: #FF6600;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.title>img {
+    width: 200px;
+    object-fit: contain;
+    height: auto;
+}
+
+/* description text */
+.content {
+    max-width: 700px;
+    margin: 0 auto 3.5rem;
+}
+
+.paragraph {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 700;
+}
+
+/* grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+/* card */
+.card {
+    background: #ffffff;
+    border-radius: 0.75rem;
+    padding: 2.5rem 1.75rem;
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0.25);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* icon placeholder */
+.icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff6a00;
+    font-weight: 600;
+}
+
+/* card title */
+.card h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+}
+
+/* card text */
+.card p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* responsive */
+@media (max-width: 900px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+}

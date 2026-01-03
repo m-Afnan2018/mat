@@ -1,0 +1,68 @@
+.cta {
+    width: 100%;
+    background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+    padding: 3.5rem 1.5rem;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading {
+    font-size: clamp(1.3rem, 3vw, 2rem);
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.text {
+    max-width: 720px;
+    margin: 0 auto 1.75rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #e0e7ff;
+}
+
+.button {
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.85rem 1.8rem;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    color: #1e3a8a;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.button:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+/* -----------------------
+   RESPONSIVE
+------------------------ */
+
+@media (max-width: 480px) {
+    .cta {
+        padding: 3rem 1rem;
+    }
+
+    .text {
+        font-size: 0.85rem;
+    }
+
+    .button {
+        width: 100%;
+        max-width: 320px;
+    }
+}

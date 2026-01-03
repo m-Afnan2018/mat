@@ -1,0 +1,294 @@
+{
+  "slug": "mat",
+  "category": "mba",
+
+  "seo": {
+    "title": "MAT Score Based MBA / PGDM Admissions 2026 | Career Laksh",
+    "description": "Apply for MBA / PGDM admissions through MAT 2026. College shortlisting, counselling, scholarship guidance, and admission support for 600+ AICTE approved B-Schools.",
+    "keywords": [
+      "MAT MBA Admission 2026",
+      "MAT Score Colleges",
+      "MBA Admission via MAT",
+      "PGDM MAT Admission"
+    ]
+  },
+
+  "hero": {
+    "title": "Management Aptitude Test (MAT)",
+    "heading": "MAT Score Based MBA / PGDM Admissions 2026",
+    "subheading": "Accepted by 600+ AICTE Approved B-Schools Across India",
+    "cta": "Get Free Counselling"
+  },
+
+  "intro": {
+    "title": "Why Choose Career Laksh",
+    "description": [
+      "Career Laksh helps MAT aspirants select the best-fit MBA / PGDM colleges based on their score, budget, location, and profile.",
+      "We simplify the entire process — counselling, college comparison, scholarship guidance, and admission assistance — all on one platform."
+    ],
+    "items": [
+      {
+        "title": "Over 11 Years of Trust",
+        "text": "Our team has over a decade of experience and has helped thousands of students fulfil their dreams."
+      },
+      {
+        "title": "Access to Top Colleges",
+        "text": "Based on your profile and preferences, we guide you to the best colleges in India & abroad."
+      },
+      {
+        "title": "Personalized Guidance",
+        "text": "We provide one-on-one counselling and act as your mentor throughout the admission journey."
+      },
+      {
+        "title": "Strategic Approach",
+        "text": "Our team follows a data-driven and student-first approach for better outcomes."
+      },
+      {
+        "title": "End-to-End Support",
+        "text": "Complete assistance from counselling and shortlisting to applications and final admission."
+      },
+      {
+        "title": "Transparent Process",
+        "text": "No hidden charges or misleading promises. Everything is explained clearly."
+      }
+    ]
+  },
+
+  "stats": [
+    { "label": "Weekly New Student Enquiries", "value": "3,000+" },
+    {
+      "label": "Successful MBA / PGDM Admissions Every Year",
+      "value": "1,000+"
+    },
+    { "label": "MAT Score Accepting Institutes", "value": "600+" },
+    {
+      "label": "Popular Specializations",
+      "value": "600+"
+    }
+  ],
+
+  "tables": [
+    {
+      "id": "college-programs",
+      "title": "MBA / PGDM Programs & College Details",
+      "columns": [
+        "College Type",
+        "Location",
+        "Program",
+        "Duration",
+        "Total Fees",
+        "Yearly Fees",
+        "Exam Accepted",
+        "Basic Eligibility"
+      ],
+      "rows": [
+        [
+          "Top Pvt. B-School",
+          "Delhi NCR",
+          "PGDM (General / Marketing)",
+          "2 Yrs / 4 Sem",
+          "₹6,00,000–₹7,00,000",
+          "₹3,00,000–₹3,50,000",
+          "MAT / CAT / CMAT",
+          "Graduation with 50%+"
+        ],
+        [
+          "Established B-School",
+          "Mumbai / Pune",
+          "MBA (Finance / HR)",
+          "2 Yrs / 4 Sem",
+          "₹5,00,000–₹6,00,000",
+          "₹2,50,000–₹3,00,000",
+          "MAT / CMAT",
+          "Graduation (Any Stream)"
+        ],
+        [
+          "Value-for-Money College",
+          "Bangalore",
+          "MBA (General)",
+          "2 Yrs / 4 Sem",
+          "₹4,00,000–₹5,00,000",
+          "₹2,00,000–₹2,50,000",
+          "MAT / Other Tests",
+          "Graduation with 50%+"
+        ],
+        [
+          "Low-Budget Options",
+          "Tier-2 Cities",
+          "MBA / PGDM",
+          "2 Yrs / 4 Sem",
+          "₹2,50,000–₹4,00,000",
+          "₹1,25,000–₹2,00,000",
+          "MAT / Direct",
+          "Graduation (Recognized University)"
+        ]
+      ]
+    },
+
+    {
+      "id": "specialization-fees",
+      "title": "Specialization-wise Fee & College Breakdown",
+      "columns": [
+        "Specialization",
+        "Tier-1 (Delhi/Mumbai)",
+        "Tier-2 (Bangalore/Pune)",
+        "Tier-3 (Tier-2/3 Cities)",
+        "Avg. Total Fees (2 Yrs)"
+      ],
+      "rows": [
+        ["MBA (Marketing)", "₹6.5–7.5 L", "₹5–6 L", "₹3.5–4.5 L", "₹4.5–6 L"],
+        ["MBA (Finance)", "₹6.8–7.8 L", "₹5.5–6.5 L", "₹4–5 L", "₹5–6.5 L"],
+        ["MBA (HR)", "₹6–7 L", "₹4.8–5.8 L", "₹3.5–4.5 L", "₹4.5–5.8 L"],
+        ["PGDM (General)", "₹6–7 L", "₹4.5–5.5 L", "₹3–4 L", "₹4–5.5 L"],
+        [
+          "PGDM (Business Analytics)",
+          "₹7–8 L",
+          "₹5.5–6.5 L",
+          "₹4–5 L",
+          "₹5–6.5 L"
+        ]
+      ]
+    },
+
+    {
+      "id": "eligibility",
+      "title": "Admission & Eligibility Details",
+      "columns": [
+        "College Tier",
+        "Minimum MAT Score",
+        "Minimum Graduation %",
+        "Direct / Management Quota",
+        "Scholarship Possibility"
+      ],
+      "rows": [
+        [
+          "Top Colleges (Delhi/Mumbai)",
+          "650+",
+          "60%+",
+          "Available (High Fees)",
+          "10–25%"
+        ],
+        [
+          "Tier-2 Colleges",
+          "550–650",
+          "50–60%",
+          "Available (Moderate Fees)",
+          "5–15%"
+        ],
+        [
+          "Tier-3 Colleges",
+          "450–550",
+          "45–50%",
+          "Available (Low Fees)",
+          "5–10%"
+        ]
+      ]
+    }
+  ],
+
+  "reviews": [
+    {
+      "image": "",
+      "name": "",
+      "review": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "review": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "review": ""
+    },
+    {
+      "image": "",
+      "name": "",
+      "review": ""
+    }
+  ],
+
+  "faqs": [
+    {
+      "q": "What is the MAT exam?",
+      "a": "MAT is a national-level MBA entrance test conducted by AIMA and accepted by over 600 B-Schools in India."
+    },
+    {
+      "q": "What is the eligibility for MAT?",
+      "a": "Graduation in any discipline. Final-year students can also apply. There is no age limit."
+    },
+    {
+      "q": "How many times is MAT conducted?",
+      "a": "Four times a year — February, May, September, and December."
+    },
+    {
+      "q": "What are the test modes?",
+      "a": "PBT (Offline), CBT (Online), and sometimes IBT."
+    },
+    {
+      "q": "How does Career Laksh help?",
+      "a": "Free counselling, college shortlisting, documentation support, and low-budget or city-specific options."
+    }
+  ],
+
+  "leadForm": {
+    "title": "Detailed MAT – MBA Admission Enquiry",
+    "submitText": "Get Free Counselling Call",
+    "fields": [
+      { "name": "fullName", "type": "text", "required": true },
+      { "name": "mobile", "type": "tel", "required": true },
+      { "name": "email", "type": "email" },
+      { "name": "city", "type": "text" },
+      {
+        "name": "courseInterest",
+        "type": "checkbox",
+        "options": [
+          "MBA (General)",
+          "MBA (Marketing)",
+          "MBA (Finance)",
+          "MBA (HR)",
+          "PGDM",
+          "Not Sure"
+        ]
+      },
+      {
+        "name": "graduationStatus",
+        "type": "radio",
+        "options": ["Completed", "Final Year"]
+      },
+      {
+        "name": "percentage",
+        "type": "select",
+        "options": ["Below 50%", "50–60%", "60–70%", "70%+"]
+      },
+      {
+        "name": "examStatus",
+        "type": "checkbox",
+        "options": ["MAT Appeared", "MAT Registered", "Other Exam", "No Exam"]
+      },
+      {
+        "name": "budget",
+        "type": "select",
+        "options": ["Below ₹3L", "₹3–5L", "₹5–7L", "Above ₹7L", "Not Decided"]
+      },
+      {
+        "name": "preferredLocation",
+        "type": "select",
+        "options": [
+          "Delhi NCR",
+          "Mumbai / Pune",
+          "Bangalore",
+          "Tier-2/3",
+          "Anywhere"
+        ]
+      },
+      {
+        "name": "workExperience",
+        "type": "select",
+        "options": ["0–1 Year", "1–2 Years", "2+ Years", "Not Applicable"]
+      }
+    ]
+  }
+}
+ 
