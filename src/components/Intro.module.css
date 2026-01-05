@@ -18,11 +18,15 @@
     line-height: 1.2;
 }
 
-.title>img {
+.title>span{
+    color: #0b4fad;
+}
+
+/* .title>img {
     width: 200px;
     object-fit: contain;
     height: auto;
-}
+} */
 
 /* description text */
 .content {

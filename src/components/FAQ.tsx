@@ -38,16 +38,16 @@ export default function FAQ({ items }: FAQProps) {
                                     aria-expanded={isOpen}
                                 >
                                     <span>{item.q}</span>
-                                    <span className={styles.icon}>
-                                        {isOpen ? "−" : "+"}
+                                    <span className={`${styles.icon} ${isOpen ? styles.iconOpen : ''}`}>
+                                        +
                                     </span>
                                 </button>
 
-                                {isOpen && (
+                                <div className={`${styles.answerWrapper} ${isOpen ? styles.answerOpen : ''}`}>
                                     <div className={styles.answer}>
                                         <p>{item.a}</p>
                                     </div>
-                                )}
+                                </div>
                             </div>
                         );
                     })}

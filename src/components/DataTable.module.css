@@ -1,6 +1,7 @@
 .wrapper {
     padding: 4rem 1.5rem;
     background: rgb(234, 247, 244);
+    border-bottom: 2px dashed #0b4fad;
 }
 
 .container {

@@ -1,4 +1,4 @@
-import data from "@/data/programs/mat.json";
+import data from "@/assets/data/programs/mat.json";
 
 // Layout sections
 import Hero from "@/components/Hero";
@@ -11,6 +11,7 @@ import CTA from "@/components/CTA";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import JourneyCTA from "@/components/JourneyCTA";
+import Testimonials from '@/components/Testimonials'
 
 export const metadata = {
   title: data.seo.title,
@@ -41,6 +42,8 @@ export default function MATPage() {
 
       {/* JOURNEY CTA */}
       <JourneyCTA />
+
+      <Testimonials/>
 
       {/* FAQ */}
       <FAQ items={data.faqs} />

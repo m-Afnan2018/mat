@@ -1,10 +1,11 @@
 .section {
     background: #ffb27d;
     /* orange like reference */
-    padding: 3.5rem 1.5rem;
+    padding: 1.5rem 1.5rem 0rem 1.5rem;
 }
 
 .container {
+    /* position: relative; */
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
@@ -34,7 +35,10 @@
 }
 
 /* RIGHT */
-.right {
+.right {    
+    /* position: absolute;
+    bottom: -3.5rem;
+    right: 10px; */
     display: flex;
     justify-content: center;
 }
@@ -75,7 +79,7 @@
 
 @media (max-width: 480px) {
     .section {
-        padding: 3rem 1rem;
+        padding: 3rem 1rem 0;
     }
 
     .left h2 {

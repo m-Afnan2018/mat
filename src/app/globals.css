@@ -1,5 +1,6 @@
 :root {
   --font-primary: var(--font-quicksand);
+  --swiper-pagination-bottom: 0;
 }
 
 * {
