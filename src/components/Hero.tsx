@@ -1,20 +1,30 @@
 import styles from "./Hero.module.css";
 
-export default function Hero() {
+interface HeroProps {
+    data: {
+        title: string;
+        heading: string;
+        subheading: string;
+        cta: string;
+    }
+}
+
+export default function Hero({ data }: HeroProps) {
     return (
         <section className={styles.hero}>
             <div className={styles.container}>
 
                 {/* LEFT CONTENT */}
                 <div className={styles.left}>
-                    <h1>
+                    {data.heading}
+                    {/* <h1>
                         Study <span>MBA / PGDM</span>
                         <br />
                         India & Abroad
-                    </h1>
+                    </h1> */}
 
                     <p className={styles.sub}>
-                        AICTE Approved Colleges
+                        {data.subheading}
                     </p>
 
                     {/* LOGO PLACEHOLDERS */}

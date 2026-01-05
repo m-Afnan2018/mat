@@ -13,6 +13,9 @@ import Footer from "@/components/Footer";
 import JourneyCTA from "@/components/JourneyCTA";
 import Testimonials from '@/components/Testimonials'
 
+import type { LeadFormData } from "@/components/LeadForm";
+const leadFormData = data.leadForm as LeadFormData;
+
 export const metadata = {
   title: data.seo.title,
   description: data.seo.description,
@@ -56,7 +59,8 @@ export default function MATPage() {
       />
 
       {/* LEAD FORM */}
-      <LeadForm data={data.leadForm} />
+      {/* <LeadForm data={data.leadForm} /> */}
+      <LeadForm data={leadFormData} />
 
       <Footer />
     </main>

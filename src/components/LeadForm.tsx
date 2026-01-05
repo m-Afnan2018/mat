@@ -5,20 +5,37 @@ import styles from "./LeadForm.module.css";
 
 type FieldOption = string;
 
-type Field = {
+export type Field = {
     name: string;
     type: "text" | "email" | "tel" | "select" | "radio" | "checkbox";
     required?: boolean;
-    options?: FieldOption[];
+    options?: string[];
+};
+
+export type LeadFormData = {
+    title: string;
+    submitText: string;
+    fields: Field[];
 };
 
 type LeadFormProps = {
-    data: {
-        title: string;
-        submitText: string;
-        fields: Field[];
-    };
+    data: LeadFormData;
 };
+
+// type Field = {
+//     name: string;
+//     type: "text" | "email" | "tel" | "select" | "radio" | "checkbox";
+//     required?: boolean;
+//     options?: FieldOption[];
+// };
+
+// type LeadFormProps = {
+//     data: {
+//         title: string;
+//         submitText: string;
+//         fields: Field[];
+//     };
+// };
 
 export default function LeadForm({ data }: LeadFormProps) {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
