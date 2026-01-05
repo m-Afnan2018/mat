@@ -1,0 +1,206 @@
+{
+  "slug": "amrita-vishwa-vidyapeetham-btech",
+  "category": "btech",
+
+  "seo": {
+    "title": "B.Tech Admissions 2026 | Amrita Vishwa Vidyapeetham | Career Laksh",
+    "description": "Apply for B.Tech admissions 2026 at Amrita Vishwa Vidyapeetham. AICTE approved engineering programs, transparent fees, multiple specializations and expert admission support.",
+    "keywords": [
+      "Amrita Vishwa Vidyapeetham B.Tech",
+      "Amrita University Engineering Admission",
+      "B.Tech Admission 2026",
+      "Direct B.Tech Admission"
+    ]
+  },
+
+  "hero": {
+    "title": "Amrita Vishwa Vidyapeetham",
+    "heading": "B.Tech Admissions Open 2026",
+    "subheading": "AICTE Approved | Holistic & Future-Ready Engineering Education",
+    "cta": "Get Free Counselling"
+  },
+
+  "intro": {
+    "title": "Why Choose Career Laksh",
+    "description": [
+      "Career Laksh empowers B.Tech aspirants with expert counselling, verified universities, and a transparent admission process.",
+      "We guide students from branch selection to complete admission assistance with clarity and confidence."
+    ]
+  },
+
+  "stats": [
+    { "label": "New Visitors Every Week", "value": "2,200+" },
+    { "label": "Successful B.Tech Admissions Every Year", "value": "1,100+" },
+    { "label": "AICTE Approved Engineering Colleges", "value": "160+" },
+    { "label": "B.Tech Specializations", "value": "24+" }
+  ],
+
+  "tables": [
+    {
+      "id": "btech-programs",
+      "title": "B.Tech Programs & Fee Structure",
+      "columns": [
+        "University",
+        "Course",
+        "Duration",
+        "Total Fees",
+        "Yearly Fees",
+        "Exam Accepted",
+        "Eligibility"
+      ],
+      "rows": [
+        [
+          "Amrita Vishwa Vidyapeetham",
+          "B.Tech (Computer Science)",
+          "4 Yrs / 8 Sem",
+          "₹3,40,000",
+          "₹85,000",
+          "JEE / University Test / Direct",
+          "10+2 PCM (50%+)"
+        ],
+        [
+          "Amrita Vishwa Vidyapeetham",
+          "B.Tech (CSE – AI & DS)",
+          "4 Yrs / 8 Sem",
+          "₹3,50,000",
+          "₹87,500",
+          "JEE / Direct",
+          "10+2 PCM (50%+)"
+        ],
+        [
+          "Amrita Vishwa Vidyapeetham",
+          "B.Tech (Information Technology)",
+          "4 Yrs / 8 Sem",
+          "₹3,30,000",
+          "₹82,500",
+          "JEE / University Test",
+          "10+2 PCM"
+        ],
+        [
+          "Amrita Vishwa Vidyapeetham",
+          "B.Tech (Mechanical Engineering)",
+          "4 Yrs / 8 Sem",
+          "₹3,20,000",
+          "₹80,000",
+          "JEE / Direct",
+          "10+2 PCM"
+        ],
+        [
+          "Amrita Vishwa Vidyapeetham",
+          "B.Tech (Civil Engineering)",
+          "4 Yrs / 8 Sem",
+          "₹3,20,000",
+          "₹80,000",
+          "JEE / Direct",
+          "10+2 PCM"
+        ],
+        [
+          "Amrita Vishwa Vidyapeetham",
+          "B.Tech (Electrical Engineering)",
+          "4 Yrs / 8 Sem",
+          "₹3,30,000",
+          "₹82,500",
+          "JEE / University Test",
+          "10+2 PCM"
+        ],
+        [
+          "Amrita Vishwa Vidyapeetham",
+          "B.Tech (Electronics & Communication)",
+          "4 Yrs / 8 Sem",
+          "₹3,40,000",
+          "₹85,000",
+          "JEE / Direct",
+          "10+2 PCM"
+        ]
+      ]
+    }
+  ],
+
+  "faqs": [
+    {
+      "q": "Is Amrita Vishwa Vidyapeetham approved by UGC and AICTE?",
+      "a": "Yes. Amrita Vishwa Vidyapeetham is UGC recognized and its B.Tech programs follow AICTE norms."
+    },
+    {
+      "q": "Can I get B.Tech admission without JEE?",
+      "a": "Yes. Admission is possible through direct admission or university-level entrance tests, subject to availability."
+    },
+    {
+      "q": "Is B.Tech possible with 45–50% in 10+2?",
+      "a": "Yes. Eligible students may be considered under direct or management quota."
+    },
+    {
+      "q": "Are there any hidden charges in fees?",
+      "a": "No. The fee structure is transparent and semester-wise."
+    },
+    {
+      "q": "Does Amrita provide placement support?",
+      "a": "Yes. Placement assistance is provided based on branch, skills, and academic performance."
+    },
+    {
+      "q": "Are hostel and campus facilities available?",
+      "a": "Yes. Hostels, labs, library, Wi-Fi campus, sports and transport facilities are available."
+    }
+  ],
+
+  "leadForm": {
+    "title": "B.Tech Admission Enquiry – Amrita University",
+    "submitText": "Get Free Counselling",
+    "fields": [
+      { "name": "fullName", "type": "text", "required": true },
+      { "name": "mobile", "type": "tel", "required": true },
+      { "name": "email", "type": "email" },
+
+      {
+        "name": "coursePreference",
+        "type": "checkbox",
+        "options": ["B.Tech", "B.Tech (Lateral Entry)"]
+      },
+      {
+        "name": "specialization",
+        "type": "checkbox",
+        "options": [
+          "CSE",
+          "CSE – AI",
+          "CSE – Data Science",
+          "IT",
+          "ECE",
+          "Electrical",
+          "Mechanical",
+          "Civil",
+          "Not Decided"
+        ]
+      },
+      {
+        "name": "qualification",
+        "type": "radio",
+        "options": ["10+2 (PCM)", "Diploma (Engineering)", "Appearing"]
+      },
+      {
+        "name": "percentage",
+        "type": "select",
+        "options": ["Below 45%", "45–50%", "50–60%", "60–70%", "70%+"]
+      },
+      {
+        "name": "examStatus",
+        "type": "checkbox",
+        "options": [
+          "JEE Main",
+          "State Entrance Exam",
+          "University Test",
+          "Not Appeared"
+        ]
+      },
+      {
+        "name": "admissionPreference",
+        "type": "checkbox",
+        "options": [
+          "Direct Admission",
+          "Management Quota",
+          "Entrance Based",
+          "Need Counselling"
+        ]
+      }
+    ]
+  }
+}

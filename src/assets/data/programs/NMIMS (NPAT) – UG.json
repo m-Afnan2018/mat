@@ -1,0 +1,175 @@
+{
+  "slug": "nmims-npat-ug-admissions",
+  "category": "ug-admissions",
+
+  "seo": {
+    "title": "NMIMS NPAT 2026 | BBA, B.Com, B.Sc Admissions | Career Laksh",
+    "description": "Apply for NMIMS NPAT 2026 admissions. Get expert counselling for BBA, B.Com (Hons), B.Sc Finance and other UG programs with transparent fees and complete admission support.",
+    "keywords": [
+      "NMIMS NPAT 2026",
+      "NMIMS BBA Admission",
+      "NMIMS B.Com Hons",
+      "NMIMS B.Sc Finance Admission",
+      "NPAT Admission Guidance"
+    ]
+  },
+
+  "hero": {
+    "title": "NMIMS University",
+    "heading": "NPAT 2026 UG Admissions Open",
+    "subheading": "UGC Approved | Leading Private University for Management, Commerce & Science",
+    "cta": "Get Free Counselling"
+  },
+
+  "intro": {
+    "title": "Why Choose Career Laksh",
+    "description": [
+      "Career Laksh empowers NPAT aspirants with expert career guidance, trusted university recommendations, and complete admission assistance.",
+      "We support students throughout NPAT preparation, course selection, eligibility checks, documentation, and final admission."
+    ]
+  },
+
+  "stats": [
+    { "label": "Weekly New Visitors", "value": "2,000+" },
+    { "label": "Successful NPAT Admissions Every Year", "value": "900+" },
+    { "label": "Associated Universities & Colleges", "value": "100+" },
+    { "label": "UG Specializations Offered", "value": "20+" }
+  ],
+
+  "tables": [
+    {
+      "id": "npat-programs",
+      "title": "Popular NMIMS (NPAT) UG Programs & Fees",
+      "columns": [
+        "University",
+        "Course",
+        "Duration",
+        "Total Fees",
+        "Yearly Fees",
+        "Exam Accepted",
+        "Eligibility"
+      ],
+      "rows": [
+        [
+          "NMIMS University",
+          "BBA",
+          "3 Years / 6 Sem",
+          "₹6,00,000",
+          "₹2,00,000",
+          "NPAT / Direct",
+          "10+2 with 50%+"
+        ],
+        [
+          "NMIMS University",
+          "B.Com (Hons)",
+          "3 Years / 6 Sem",
+          "₹5,50,000",
+          "₹1,83,000",
+          "NPAT / Direct",
+          "10+2 (Commerce Preferred)"
+        ],
+        [
+          "NMIMS University",
+          "B.Sc (Finance)",
+          "3 Years / 6 Sem",
+          "₹6,50,000",
+          "₹2,16,000",
+          "NPAT",
+          "10+2 with 60%+"
+        ],
+        [
+          "NMIMS University",
+          "BBA (International Business)",
+          "3 Years / 6 Sem",
+          "₹7,00,000",
+          "₹2,33,000",
+          "NPAT / Direct",
+          "10+2 with 50%+"
+        ],
+        [
+          "NMIMS University",
+          "BBA (Marketing / HR / Finance)",
+          "3 Years / 6 Sem",
+          "₹6,00,000",
+          "₹2,00,000",
+          "NPAT / Management Quota",
+          "10+2 with 50%+"
+        ]
+      ]
+    }
+  ],
+
+  "faqs": [
+    {
+      "q": "Is NMIMS approved by UGC?",
+      "a": "Yes. NMIMS University is UGC recognized and holds NAAC 'A+' accreditation."
+    },
+    {
+      "q": "Can I get admission without NPAT?",
+      "a": "Yes. Direct admission or management quota options are available, subject to eligibility and seat availability."
+    },
+    {
+      "q": "What is the minimum eligibility for NPAT courses?",
+      "a": "Candidates must have passed 10+2 with at least 50%. Some courses like B.Sc Finance require 60%."
+    },
+    {
+      "q": "Are there any hidden fees?",
+      "a": "No. The fee structure is transparent and semester-wise."
+    },
+    {
+      "q": "How are placements at NMIMS?",
+      "a": "Students receive opportunities in finance, marketing, analytics, consulting, and other corporate roles."
+    },
+    {
+      "q": "Does NMIMS provide hostel facilities?",
+      "a": "Yes. Separate hostels, Wi-Fi campus, library, labs, and recreational facilities are available."
+    }
+  ],
+
+  "leadForm": {
+    "title": "NPAT Admission Enquiry – NMIMS University",
+    "submitText": "Get Free Counselling",
+    "fields": [
+      { "name": "fullName", "type": "text", "required": true },
+      { "name": "mobile", "type": "tel", "required": true },
+      { "name": "email", "type": "email" },
+
+      {
+        "name": "coursePreference",
+        "type": "checkbox",
+        "options": [
+          "BBA",
+          "B.Com (Hons)",
+          "B.Sc (Finance)",
+          "BBA (International Business)",
+          "Not Decided"
+        ]
+      },
+      {
+        "name": "qualification",
+        "type": "radio",
+        "options": ["10+2 (Appeared/Completed)", "Diploma (Equivalent)"]
+      },
+      {
+        "name": "percentage",
+        "type": "select",
+        "options": ["Below 50%", "50–60%", "60–70%", "70%+"]
+      },
+      {
+        "name": "examStatus",
+        "type": "checkbox",
+        "options": ["NPAT", "CUET", "Not Appeared"]
+      },
+      {
+        "name": "admissionPreference",
+        "type": "checkbox",
+        "options": [
+          "NPAT Score Based",
+          "Direct Admission",
+          "Management Quota",
+          "Need Counselling"
+        ]
+      }
+    ]
+  }
+}

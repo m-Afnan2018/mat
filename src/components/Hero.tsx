@@ -16,6 +16,7 @@ export default function Hero({ data }: HeroProps) {
 
                 {/* LEFT CONTENT */}
                 <div className={styles.left}>
+                    <h1>{data.title}</h1>
                     {data.heading}
                     {/* <h1>
                         Study <span>MBA / PGDM</span>

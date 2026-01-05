@@ -1,0 +1,220 @@
+{
+  "slug": "welingkar-mba-pgdm",
+  "category": "mba-pgdm",
+
+  "seo": {
+    "title": "Welingkar MBA / PGDM Admissions 2026 | WeSchool Mumbai | Career Laksh",
+    "description": "Apply for MBA / PGDM admissions 2026 at Welingkar (WeSchool), Mumbai. AICTE approved programs, industry-integrated curriculum, transparent fees and complete admission support.",
+    "keywords": [
+      "Welingkar MBA Admission",
+      "WeSchool PGDM Admission 2026",
+      "Welingkar Mumbai MBA",
+      "PGDM Admission Welingkar"
+    ]
+  },
+
+  "hero": {
+    "title": "Welingkar (WeSchool), Mumbai",
+    "heading": "Kickstart Your MBA / PGDM Journey – 2026",
+    "subheading": "AICTE Approved | Industry-Integrated | Corporate-Ready",
+    "cta": "Get Free Counselling"
+  },
+
+  "intro": {
+    "title": "Why Choose Career Laksh",
+    "description": [
+      "Join thousands of MBA / PGDM aspirants who have built successful careers with Career Laksh’s expert guidance and transparent admission process.",
+      "Our counsellors act as long-term mentors, helping you make informed and confident career decisions."
+    ],
+    "items": [
+      {
+        "title": "11+ Years of Trust",
+        "text": "Over a decade of experience guiding students to top MBA / PGDM colleges."
+      },
+      {
+        "title": "Access to Top Colleges",
+        "text": "Direct guidance for Welingkar (WeSchool) and other leading institutes in India & abroad."
+      },
+      {
+        "title": "Personalized Guidance",
+        "text": "One-on-one mentorship throughout the admission journey."
+      },
+      {
+        "title": "Strategic Approach",
+        "text": "Tailored strategies for competitive MBA / PGDM admissions."
+      },
+      {
+        "title": "End-to-End Support",
+        "text": "Support with college selection, applications, documentation, and final admission."
+      },
+      {
+        "title": "Transparent Process",
+        "text": "No hidden charges or misleading commitments."
+      }
+    ]
+  },
+
+  "stats": [
+    { "label": "New Visitors Every Week", "value": "123+" },
+    { "label": "Happy Students Every Year", "value": "500+" },
+    { "label": "Colleges Listed", "value": "150+" },
+    { "label": "Courses Featured Every Week", "value": "10+" }
+  ],
+
+  "highlights": {
+    "title": "Top College Highlight",
+    "description": [
+      "Welingkar Institute of Management Development and Research (WeSchool), Mumbai is a premier AICTE-approved institute.",
+      "Known for experiential learning, strong corporate connect, industry-integrated curriculum, and robust placement assistance."
+    ]
+  },
+
+  "tables": [
+    {
+      "id": "mba-pgdm-programs",
+      "title": "Welingkar (WeSchool) – MBA / PGDM Programs & Fees",
+      "columns": [
+        "Course",
+        "Duration",
+        "Total Fees",
+        "Yearly Fees",
+        "Entrance Exam",
+        "Eligibility"
+      ],
+      "rows": [
+        [
+          "PGDM / MBA (Full-Time)",
+          "2 Yrs / 4 Sem",
+          "₹6,50,000",
+          "₹3,25,000",
+          "CAT / XAT / CMAT",
+          "Graduation (50%+)"
+        ],
+        [
+          "PGDM – Marketing",
+          "2 Yrs / 4 Sem",
+          "₹6,50,000",
+          "₹3,25,000",
+          "CAT / XAT / CMAT",
+          "Graduation (50%+)"
+        ],
+        [
+          "PGDM – Finance",
+          "2 Yrs / 4 Sem",
+          "₹6,50,000",
+          "₹3,25,000",
+          "CAT / XAT / CMAT",
+          "Graduation (50%+)"
+        ],
+        [
+          "PGDM – HR",
+          "2 Yrs / 4 Sem",
+          "₹6,50,000",
+          "₹3,25,000",
+          "CAT / XAT / CMAT",
+          "Graduation (50%+)"
+        ],
+        [
+          "PGDM – Operations",
+          "2 Yrs / 4 Sem",
+          "₹6,50,000",
+          "₹3,25,000",
+          "CAT / XAT / CMAT",
+          "Graduation (50%+)"
+        ]
+      ]
+    }
+  ],
+
+  "reviews": [
+    {
+      "name": "Ruturaj Singhania",
+      "review": "I was confused between MBA and PGDM, but Career Laksh explained everything clearly. Their guidance helped me take the right career decision."
+    },
+    {
+      "name": "Ankit Singh",
+      "review": "From being totally lost to having a clear 5-year career plan. The guidance was practical and honest."
+    },
+    {
+      "name": "Daksh Bhutia",
+      "review": "The team guided me perfectly in selecting the right MBA college. The entire admission process was smooth."
+    }
+  ],
+
+  "faqs": [
+    {
+      "q": "What is the difference between MBA and PGDM at Welingkar?",
+      "a": "MBA is a degree program, while PGDM is an AICTE-approved diploma focused on practical and industry-oriented learning. Both are valued by recruiters."
+    },
+    {
+      "q": "Is work experience mandatory for full-time MBA / PGDM?",
+      "a": "No. Fresh graduates and candidates with 1–3 years of experience can apply. Work experience is beneficial but not mandatory."
+    },
+    {
+      "q": "Does Welingkar offer Executive or Part-Time MBA programs?",
+      "a": "Yes. Welingkar offers Executive and Part-Time PGDM programs for working professionals."
+    },
+    {
+      "q": "Which entrance exams are accepted?",
+      "a": "CAT, XAT, CMAT, and in some cases MAT scores are accepted."
+    },
+    {
+      "q": "What specializations are offered?",
+      "a": "Marketing, Finance, HR, Operations, IT / Systems, Business Analytics, and more."
+    }
+  ],
+
+  "leadForm": {
+    "title": "MBA / PGDM Admission Enquiry – Welingkar (WeSchool)",
+    "submitText": "Get Free Counselling",
+    "fields": [
+      { "name": "fullName", "type": "text", "required": true },
+      { "name": "mobile", "type": "tel", "required": true },
+      { "name": "email", "type": "email" },
+
+      {
+        "name": "qualification",
+        "type": "radio",
+        "options": ["Graduation Completed", "Graduation Appearing", "Other"]
+      },
+      {
+        "name": "desiredCourse",
+        "type": "checkbox",
+        "options": ["MBA (Full-Time)", "PGDM (Full-Time)"]
+      },
+      {
+        "name": "specialization",
+        "type": "checkbox",
+        "options": [
+          "Marketing",
+          "Finance",
+          "Human Resources",
+          "Operations",
+          "IT / Systems",
+          "Business Analytics",
+          "Not Decided"
+        ]
+      },
+      {
+        "name": "entranceExam",
+        "type": "checkbox",
+        "options": ["CAT", "XAT", "CMAT", "MAT", "None"]
+      },
+      {
+        "name": "workExperience",
+        "type": "select",
+        "options": ["Fresher", "0–1 Year", "1–2 Years", "2+ Years"]
+      },
+      {
+        "name": "admissionPreference",
+        "type": "checkbox",
+        "options": [
+          "Direct Admission",
+          "Management Quota",
+          "Entrance Exam Based",
+          "Need Counselling"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "slug": "maharaja-agrasen-university-btech",
+  "category": "btech",
+
+  "seo": {
+    "title": "B.Tech Admissions 2026 | Maharaja Agrasen University | Career Laksh",
+    "description": "Apply for B.Tech admissions 2026 at Maharaja Agrasen University. AICTE-approved programs, affordable fees, multiple specializations, and direct admission support.",
+    "keywords": [
+      "Maharaja Agrasen University B.Tech",
+      "B.Tech Admission 2026",
+      "Engineering Admission Haryana",
+      "Direct B.Tech Admission"
+    ]
+  },
+
+  "hero": {
+    "title": "B.Tech Admissions Open",
+    "heading": "Maharaja Agrasen University",
+    "subheading": "AICTE Approved | Future-Focused Engineering Education",
+    "cta": "Get Free Counselling"
+  },
+
+  "intro": {
+    "title": "Why Choose Career Laksh",
+    "description": [
+      "Career Laksh empowers B.Tech aspirants with expert counselling, verified colleges, and a transparent admission process.",
+      "We assist students in selecting the right engineering specialization and guide them through the entire admission journey."
+    ]
+  },
+
+  "stats": [
+    { "label": "New Visitors Every Week", "value": "1,800+" },
+    { "label": "Successful B.Tech Admissions Every Year", "value": "900+" },
+    { "label": "AICTE Approved Engineering Colleges", "value": "150+" },
+    { "label": "B.Tech Specializations", "value": "20+" }
+  ],
+
+  "tables": [
+    {
+      "id": "btech-programs",
+      "title": "B.Tech Programs & Fee Structure",
+      "columns": [
+        "University",
+        "Course",
+        "Duration",
+        "Total Fees",
+        "Yearly Fees",
+        "Exam Accepted",
+        "Eligibility"
+      ],
+      "rows": [
+        [
+          "Maharaja Agrasen University",
+          "B.Tech (Computer Science)",
+          "4 Yrs / 8 Sem",
+          "₹3,20,000",
+          "₹80,000",
+          "JEE / University Test / Direct",
+          "10+2 PCM (45%+)"
+        ],
+        [
+          "Maharaja Agrasen University",
+          "B.Tech (CSE – AI & DS)",
+          "4 Yrs / 8 Sem",
+          "₹3,40,000",
+          "₹85,000",
+          "JEE / Direct",
+          "10+2 PCM (45%+)"
+        ],
+        [
+          "Maharaja Agrasen University",
+          "B.Tech (Information Technology)",
+          "4 Yrs / 8 Sem",
+          "₹3,20,000",
+          "₹80,000",
+          "JEE / University Test",
+          "10+2 PCM"
+        ],
+        [
+          "Maharaja Agrasen University",
+          "B.Tech (Mechanical Engineering)",
+          "4 Yrs / 8 Sem",
+          "₹3,00,000",
+          "₹75,000",
+          "JEE / Direct",
+          "10+2 PCM"
+        ],
+        [
+          "Maharaja Agrasen University",
+          "B.Tech (Civil Engineering)",
+          "4 Yrs / 8 Sem",
+          "₹3,00,000",
+          "₹75,000",
+          "JEE / Direct",
+          "10+2 PCM"
+        ],
+        [
+          "Maharaja Agrasen University",
+          "B.Tech (Electrical Engineering)",
+          "4 Yrs / 8 Sem",
+          "₹3,00,000",
+          "₹75,000",
+          "JEE / University Test",
+          "10+2 PCM"
+        ],
+        [
+          "Maharaja Agrasen University",
+          "B.Tech (Electronics & Communication)",
+          "4 Yrs / 8 Sem",
+          "₹3,20,000",
+          "₹80,000",
+          "JEE / Direct",
+          "10+2 PCM"
+        ]
+      ]
+    }
+  ],
+
+  "faqs": [
+    {
+      "q": "Is Maharaja Agrasen University approved?",
+      "a": "Yes. Maharaja Agrasen University is UGC recognized and follows AICTE norms for its B.Tech programs."
+    },
+    {
+      "q": "Can I get B.Tech admission without JEE?",
+      "a": "Yes. Direct admission or university-level entrance test options are available based on eligibility."
+    },
+    {
+      "q": "Is B.Tech possible with 45–50% in 12th?",
+      "a": "Yes. Students meeting minimum eligibility may be considered under direct or management quota."
+    },
+    {
+      "q": "Are there any hidden charges?",
+      "a": "No. The fee structure is transparent and shared clearly before admission."
+    },
+    {
+      "q": "Does the university provide placements?",
+      "a": "Yes. Placement assistance is available, depending on branch, skills, and academic performance."
+    }
+  ],
+
+  "leadForm": {
+    "title": "B.Tech Admission Enquiry",
+    "submitText": "Get Free Counselling",
+    "fields": [
+      { "name": "fullName", "type": "text", "required": true },
+      { "name": "mobile", "type": "tel", "required": true },
+      { "name": "email", "type": "email" },
+      {
+        "name": "coursePreference",
+        "type": "checkbox",
+        "options": ["B.Tech", "B.Tech (Lateral Entry)"]
+      },
+      {
+        "name": "specialization",
+        "type": "checkbox",
+        "options": [
+          "CSE",
+          "CSE (AI)",
+          "CSE (Data Science)",
+          "IT",
+          "ECE",
+          "Electrical",
+          "Mechanical",
+          "Civil",
+          "Not Decided"
+        ]
+      },
+      {
+        "name": "qualification",
+        "type": "radio",
+        "options": ["10+2 (PCM)", "Diploma", "Appearing"]
+      },
+      {
+        "name": "percentage",
+        "type": "select",
+        "options": ["Below 45%", "45–50%", "50–60%", "60–70%", "70%+"]
+      },
+      {
+        "name": "examStatus",
+        "type": "checkbox",
+        "options": ["JEE Main", "State Exam", "University Test", "Not Appeared"]
+      },
+      {
+        "name": "admissionPreference",
+        "type": "checkbox",
+        "options": [
+          "Direct Admission",
+          "Management Quota",
+          "Entrance Based",
+          "Need Counselling"
+        ]
+      }
+    ]
+  }
+}

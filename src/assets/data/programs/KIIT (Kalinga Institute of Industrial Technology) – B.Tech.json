@@ -1,0 +1,206 @@
+{
+  "slug": "kiit-btech",
+  "category": "btech",
+
+  "seo": {
+    "title": "B.Tech Admissions 2026 | KIIT University | Career Laksh",
+    "description": "Apply for B.Tech admissions 2026 at KIIT (Kalinga Institute of Industrial Technology). AICTE approved programs, transparent fees, multiple specializations and expert admission support.",
+    "keywords": [
+      "KIIT B.Tech Admission",
+      "KIIT Engineering Admission 2026",
+      "Kalinga Institute of Industrial Technology B.Tech",
+      "Direct B.Tech Admission KIIT"
+    ]
+  },
+
+  "hero": {
+    "title": "KIIT (Kalinga Institute of Industrial Technology)",
+    "heading": "B.Tech Admissions Open – 2026",
+    "subheading": "AICTE Approved | Industry-Oriented & Research-Driven Engineering Education",
+    "cta": "Get Free Counselling"
+  },
+
+  "intro": {
+    "title": "Why Choose Career Laksh",
+    "description": [
+      "Career Laksh empowers B.Tech aspirants with expert counselling, access to trusted AICTE-approved colleges, and a transparent admission process.",
+      "We help students make informed decisions and build successful engineering careers with end-to-end support."
+    ]
+  },
+
+  "stats": [
+    { "label": "New Visitors Every Week", "value": "2,400+" },
+    { "label": "Successful B.Tech Admissions Every Year", "value": "1,200+" },
+    { "label": "AICTE Approved Engineering Colleges", "value": "175+" },
+    { "label": "B.Tech Specializations Available", "value": "25+" }
+  ],
+
+  "tables": [
+    {
+      "id": "btech-programs",
+      "title": "B.Tech Programs & Fee Structure",
+      "columns": [
+        "University",
+        "Course",
+        "Duration",
+        "Total Fees",
+        "Yearly Fees",
+        "Exam Accepted",
+        "Eligibility"
+      ],
+      "rows": [
+        [
+          "KIIT University",
+          "B.Tech (Computer Science)",
+          "4 Yrs / 8 Sem",
+          "₹3,60,000",
+          "₹90,000",
+          "JEE / University Test / Direct",
+          "10+2 PCM (50%+)"
+        ],
+        [
+          "KIIT University",
+          "B.Tech (CSE – AI & DS)",
+          "4 Yrs / 8 Sem",
+          "₹3,70,000",
+          "₹92,500",
+          "JEE / Direct",
+          "10+2 PCM (50%+)"
+        ],
+        [
+          "KIIT University",
+          "B.Tech (Information Technology)",
+          "4 Yrs / 8 Sem",
+          "₹3,50,000",
+          "₹87,500",
+          "JEE / University Test",
+          "10+2 PCM"
+        ],
+        [
+          "KIIT University",
+          "B.Tech (Mechanical Engineering)",
+          "4 Yrs / 8 Sem",
+          "₹3,30,000",
+          "₹82,500",
+          "JEE / Direct",
+          "10+2 PCM"
+        ],
+        [
+          "KIIT University",
+          "B.Tech (Civil Engineering)",
+          "4 Yrs / 8 Sem",
+          "₹3,30,000",
+          "₹82,500",
+          "JEE / Direct",
+          "10+2 PCM"
+        ],
+        [
+          "KIIT University",
+          "B.Tech (Electrical Engineering)",
+          "4 Yrs / 8 Sem",
+          "₹3,40,000",
+          "₹85,000",
+          "JEE / University Test",
+          "10+2 PCM"
+        ],
+        [
+          "KIIT University",
+          "B.Tech (Electronics & Communication)",
+          "4 Yrs / 8 Sem",
+          "₹3,50,000",
+          "₹87,500",
+          "JEE / Direct",
+          "10+2 PCM"
+        ]
+      ]
+    }
+  ],
+
+  "faqs": [
+    {
+      "q": "Is KIIT approved by UGC and AICTE?",
+      "a": "Yes. KIIT is UGC recognized and its B.Tech programs follow AICTE norms."
+    },
+    {
+      "q": "Can I get B.Tech admission without JEE?",
+      "a": "Yes. Admission is possible through direct admission or university-level entrance tests, subject to seat availability."
+    },
+    {
+      "q": "Is B.Tech possible with 45–50% marks in 10+2?",
+      "a": "Yes. Eligible students may be considered under direct or management quota."
+    },
+    {
+      "q": "Are there any hidden fees?",
+      "a": "No. Fees are transparent, semester-wise, and disclosed before admission."
+    },
+    {
+      "q": "What are the placement opportunities?",
+      "a": "KIIT provides placement assistance depending on branch, skills, and academic performance."
+    },
+    {
+      "q": "Are hostel and campus facilities available?",
+      "a": "Yes. Hostels, labs, library, Wi-Fi campus, sports, and transport facilities are available."
+    }
+  ],
+
+  "leadForm": {
+    "title": "B.Tech Admission Enquiry – KIIT University",
+    "submitText": "Get Free Counselling",
+    "fields": [
+      { "name": "fullName", "type": "text", "required": true },
+      { "name": "mobile", "type": "tel", "required": true },
+      { "name": "email", "type": "email" },
+
+      {
+        "name": "coursePreference",
+        "type": "checkbox",
+        "options": ["B.Tech", "B.Tech (Lateral Entry)"]
+      },
+      {
+        "name": "specialization",
+        "type": "checkbox",
+        "options": [
+          "Computer Science Engineering",
+          "CSE – Artificial Intelligence",
+          "CSE – Data Science",
+          "Information Technology",
+          "Electronics & Communication",
+          "Electrical Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Not Decided"
+        ]
+      },
+      {
+        "name": "qualification",
+        "type": "radio",
+        "options": ["10+2 (PCM)", "Diploma (Engineering)", "Appearing"]
+      },
+      {
+        "name": "percentage",
+        "type": "select",
+        "options": ["Below 45%", "45–50%", "50–60%", "60–70%", "70%+"]
+      },
+      {
+        "name": "examStatus",
+        "type": "checkbox",
+        "options": [
+          "JEE Main",
+          "State Entrance Exam",
+          "University Test",
+          "Not Appeared"
+        ]
+      },
+      {
+        "name": "admissionPreference",
+        "type": "checkbox",
+        "options": [
+          "Direct Admission",
+          "Management Quota",
+          "Entrance Exam Based",
+          "Need Counselling"
+        ]
+      }
+    ]
+  }
+}

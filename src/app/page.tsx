@@ -1,4 +1,5 @@
 import data from "@/assets/data/programs/mat.json";
+// import data from "@/assets/data/programs/"
 
 // Layout sections
 import Hero from "@/components/Hero";

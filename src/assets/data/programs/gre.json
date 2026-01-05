@@ -1,0 +1,312 @@
+{
+  "slug": "gre-study-abroad",
+  "category": "study-abroad",
+
+  "seo": {
+    "title": "GRE Based MS & MBA Abroad Admissions 2026 | Career Laksh",
+    "description": "Apply for MS, MBA & Masters abroad using GRE score. University shortlisting, SOP/LOR guidance, visa support and counselling for USA, Canada, UK, Europe & Australia.",
+    "keywords": [
+      "GRE Admission 2026",
+      "GRE MS Abroad",
+      "GRE MBA Abroad",
+      "Study Abroad with GRE"
+    ]
+  },
+
+  "hero": {
+    "title": "GRE (Graduate Record Examination)",
+    "heading": "MS, MBA & Masters Admissions Abroad 2026",
+    "subheading": "Accepted by 1,000+ Universities Worldwide",
+    "cta": "Get Free Counselling"
+  },
+
+  "intro": {
+    "title": "Why Choose Career Laksh",
+    "description": [
+      "Career Laksh helps GRE aspirants shortlist the best-fit universities based on GRE score, academics, budget, and country preference.",
+      "We handle everything from profile evaluation and university selection to SOP/LOR support, applications, and documentation."
+    ]
+  },
+
+  "stats": [
+    { "label": "Weekly Study Abroad Enquiries", "value": "1,500+" },
+    {
+      "label": "Countries Covered",
+      "value": "USA, Canada, UK, Germany, France, Australia, Netherlands, Singapore, New Zealand"
+    },
+    { "label": "GRE Accepting Universities", "value": "1,000+" },
+    {
+      "label": "Popular Programs",
+      "value": "MS, MBA, Data Science, Engineering, Analytics, Finance"
+    }
+  ],
+
+  "tables": [
+    {
+      "id": "gre-universities",
+      "title": "Popular GRE-Based Programs & Universities",
+      "columns": [
+        "Country",
+        "University",
+        "Program",
+        "Duration",
+        "Typical Tuition",
+        "GRE Requirement",
+        "Eligibility",
+        "English Test"
+      ],
+      "rows": [
+        [
+          "USA",
+          "Stanford University",
+          "MS in Computer Science",
+          "1.5–2 Years",
+          "₹50–60 Lakhs",
+          "Required",
+          "4-year Bachelor’s (75%+)",
+          "TOEFL / IELTS"
+        ],
+        [
+          "USA",
+          "MIT",
+          "MS in Engineering",
+          "1.5–2 Years",
+          "₹55–70 Lakhs",
+          "Required",
+          "4-year Bachelor’s (80%+)",
+          "TOEFL / IELTS"
+        ],
+        [
+          "USA",
+          "Harvard",
+          "MBA",
+          "2 Years",
+          "₹60–80 Lakhs",
+          "Required",
+          "Bachelor’s + 2+ Years Work Exp",
+          "TOEFL / IELTS"
+        ],
+        [
+          "Canada",
+          "University of Toronto",
+          "MS in Data Science",
+          "1.5–2 Years",
+          "₹35–45 Lakhs",
+          "Recommended",
+          "4-year Bachelor’s (70%+)",
+          "IELTS / TOEFL"
+        ],
+        [
+          "UK",
+          "University of Oxford",
+          "MSc in Engineering",
+          "1 Year",
+          "₹40–50 Lakhs",
+          "Not Required",
+          "3/4-year Bachelor’s (75%+)",
+          "IELTS"
+        ],
+        [
+          "Germany",
+          "TU Munich",
+          "MS in Computer Science",
+          "2 Years",
+          "₹10–15 Lakhs",
+          "Not Required",
+          "4-year Bachelor’s (70%+)",
+          "IELTS / TOEFL"
+        ],
+        [
+          "France",
+          "HEC Paris",
+          "MBA",
+          "1 Year",
+          "₹40–60 Lakhs",
+          "Required",
+          "Bachelor’s + Work Exp",
+          "IELTS / TOEFL"
+        ],
+        [
+          "Australia",
+          "University of Melbourne",
+          "MS in Data Science",
+          "2 Years",
+          "₹30–40 Lakhs",
+          "Recommended",
+          "3-year Bachelor’s (65%+)",
+          "IELTS"
+        ]
+      ]
+    },
+
+    {
+      "id": "gre-exam-structure",
+      "title": "GRE Exam Structure",
+      "columns": ["Section", "Duration", "Score Range", "Validity", "Best For"],
+      "rows": [
+        [
+          "Verbal Reasoning",
+          "30 mins",
+          "130–170",
+          "5 Years",
+          "Humanities, MBA, Social Sciences"
+        ],
+        [
+          "Quantitative Reasoning",
+          "35 mins",
+          "130–170",
+          "5 Years",
+          "Engineering, CS, Data Science"
+        ],
+        ["Analytical Writing", "30 mins", "0–6", "5 Years", "All Programs"]
+      ]
+    },
+
+    {
+      "id": "admission-cycle",
+      "title": "GRE Admission Cycle & Score Guidance",
+      "columns": ["Intake", "Months", "Deadline", "Recommended GRE Score"],
+      "rows": [
+        ["Fall (USA/Canada)", "Aug–Sep", "Dec–Jan", "315+ (MS), 320+ (MBA)"],
+        ["Spring (USA/Canada)", "Jan–Feb", "Aug–Sep", "310+ (MS), 315+ (MBA)"],
+        ["Autumn (UK/Europe)", "Sep–Oct", "May–Jul", "305+ (MS), 310+ (MBA)"],
+        ["Spring (UK/Europe)", "Jan–Feb", "Sep–Nov", "300+ (MS), 305+ (MBA)"]
+      ]
+    },
+
+    {
+      "id": "country-overview",
+      "title": "Country-wise Fees & Work Opportunities",
+      "columns": [
+        "Country",
+        "MS Tuition",
+        "MBA Tuition",
+        "Living Cost / Year",
+        "Visa Success",
+        "Post Study Work"
+      ],
+      "rows": [
+        [
+          "USA",
+          "₹25–50 L",
+          "₹30–60 L",
+          "₹10–15 L",
+          "70–80%",
+          "OPT (1–3 Years)"
+        ],
+        [
+          "Canada",
+          "₹20–40 L",
+          "₹30–50 L",
+          "₹8–12 L",
+          "80–90%",
+          "PGWP (3 Years)"
+        ],
+        ["UK", "₹18–35 L", "₹30–50 L", "₹10–15 L", "75–85%", "2 Years"],
+        ["Germany", "₹10–15 L", "₹15–25 L", "₹6–10 L", "80–90%", "18 Months"],
+        ["France", "₹15–25 L", "₹25–40 L", "₹8–12 L", "75–85%", "2 Years"],
+        ["Australia", "₹20–35 L", "₹30–50 L", "₹10–15 L", "70–80%", "2–3 Years"]
+      ]
+    }
+  ],
+
+  "faqs": [
+    {
+      "q": "What is the GRE exam?",
+      "a": "GRE is a standardized test widely accepted for MS, MBA and other Masters programs worldwide."
+    },
+    {
+      "q": "Which courses accept GRE scores?",
+      "a": "Most MS programs in Engineering, CS, Data Science, Analytics and many MBA programs accept GRE."
+    },
+    {
+      "q": "Is GRE mandatory for all universities?",
+      "a": "No. Some universities list GRE as optional or not required, especially in Europe."
+    },
+    {
+      "q": "Can I get admission with a low GRE score?",
+      "a": "Yes. With the right university selection and strong profile, good options are possible."
+    },
+    {
+      "q": "How does Career Laksh help GRE students?",
+      "a": "Profile evaluation, university shortlisting, SOP/LOR support, application and documentation guidance."
+    }
+  ],
+
+  "leadForm": {
+    "title": "GRE – Study Abroad Enquiry",
+    "submitText": "Get Free Study Abroad Counselling",
+    "fields": [
+      { "name": "fullName", "type": "text", "required": true },
+      { "name": "mobile", "type": "tel", "required": true },
+      { "name": "email", "type": "email" },
+      { "name": "city", "type": "text" },
+
+      {
+        "name": "planningFor",
+        "type": "checkbox",
+        "options": ["MS", "MBA", "Other Masters", "Not Sure"]
+      },
+      {
+        "name": "preferredCountries",
+        "type": "checkbox",
+        "options": [
+          "USA",
+          "Canada",
+          "UK",
+          "Germany",
+          "France",
+          "Australia",
+          "Open"
+        ]
+      },
+      {
+        "name": "educationLevel",
+        "type": "select",
+        "options": [
+          "B.Tech / BE",
+          "B.Sc / BCA",
+          "B.Com / BBA",
+          "Other Graduation",
+          "Final Year"
+        ]
+      },
+      {
+        "name": "graduationScore",
+        "type": "select",
+        "options": ["Below 60%", "60–70%", "70–80%", "80%+"]
+      },
+      {
+        "name": "greStatus",
+        "type": "select",
+        "options": [
+          "GRE Appeared",
+          "GRE Booked",
+          "Planning GRE",
+          "No GRE – Need Guidance"
+        ]
+      },
+      {
+        "name": "englishTest",
+        "type": "select",
+        "options": ["Appeared", "Planning", "Not Yet"]
+      },
+      {
+        "name": "budget",
+        "type": "select",
+        "options": [
+          "Below ₹20L",
+          "₹20–30L",
+          "₹30–40L",
+          "Above ₹40L",
+          "Not Decided"
+        ]
+      },
+      {
+        "name": "targetIntake",
+        "type": "select",
+        "options": ["Jan 2026", "Fall 2026", "2027 or Later"]
+      }
+    ]
+  }
+}
