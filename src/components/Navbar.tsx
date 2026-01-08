@@ -13,11 +13,12 @@ export default function Navbar() {
 
                 {/* NAV LINKS */}
                 <nav className={styles.links}>
-                    <a href="#">Home</a>
-                    <a href="#">Why Us</a>
-                    <a href="#">Colleges</a>
-                    <a href="#">Fees</a>
-                    <a href="#">Contact</a>
+                    <a href="#home">Home</a>
+                    <a href="#whyus">Why Us</a>
+                    <a href="#colleges">Colleges</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="#getIntouch">Contact</a>
                 </nav>
 
                 {/* CTA */}

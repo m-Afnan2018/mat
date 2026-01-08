@@ -34,7 +34,7 @@ export default function Footer() {
                     {/* CONTACT */}
                     <div>
                         <h4>Get In Touch</h4>
-                        <p>📞 +91 7875910981</p>
+                        <p>📞 +91 7838910981</p>
                         <p>✉️ info@career-laksh.com</p>
                         <p>📍 Delhi</p>
                     </div>

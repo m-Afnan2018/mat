@@ -22,7 +22,7 @@ export default function FAQ({ items }: FAQProps) {
     };
 
     return (
-        <section className={styles.faq}>
+        <section className={styles.faq} id="faq">
             <div className={styles.container}>
                 <h2 className={styles.title}>Frequently Asked Questions</h2>
 

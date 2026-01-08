@@ -3,8 +3,6 @@
 import { useState } from "react";
 import styles from "./LeadForm.module.css";
 
-type FieldOption = string;
-
 export type Field = {
     name: string;
     type: "text" | "email" | "tel" | "select" | "radio" | "checkbox";
@@ -81,7 +79,7 @@ export default function LeadForm({ data }: LeadFormProps) {
 
     if (submitted) {
         return (
-            <section className={styles.wrapper}>
+            <section className={styles.wrapper} id="getIntouch">
                 <div className={styles.container}>
                     <h2 className={styles.successTitle}>Thank you!</h2>
                     <p className={styles.successText}>

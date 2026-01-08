@@ -1,5 +1,5 @@
-import data from "@/assets/data/programs/Amrita Vishwa Vidyapeetham – B.Tech.json"
-// import data from "@/assets/data/programs/gre.json"
+// import data from "@/assets/data/programs/Amrita Vishwa Vidyapeetham – B.Tech.json"
+import data from "@/assets/data/programs/gre.json"
 // import data from "@/assets/data/programs/KIIT (Kalinga Institute of Industrial Technology) – B.Tech.json"
 // import data from "@/assets/data/programs/Maharaja Agrasen University B.Tech.json"
 // import data from "@/assets/data/programs/Maharaja Agrasen University – B.Tech.json"
