@@ -45,7 +45,7 @@ const testimonials: Testimonial[] = [
 
 const Testimonials: React.FC = () => {
   return (
-    <section className={styles.testimonialSection} id='testimonial'>
+    <section className={styles.testimonialSection} id='testimonials'>
       <div className={styles.container}>
         <h2 className={styles.heading}>
           Why Choose <span className={styles.highlightOrange}>Career</span>{' '}

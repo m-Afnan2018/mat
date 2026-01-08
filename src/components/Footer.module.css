@@ -1,70 +1,94 @@
 .footer {
-    background: #273445;
-    color: #ffffff;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    width: 100%;
 }
 
 .top {
-    padding: 3rem 1.5rem;
+    padding: 60px 20px 40px;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1.2fr 1fr 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
 }
 
 .logo {
-    font-size: 1.4rem;
-    font-weight: 700;
+    margin-bottom: 15px;
 }
 
 .logo img {
-    color: transparent;
-    width: 200px;
-    object-fit: contain;
+    max-width: 150px;
     height: auto;
 }
 
-.container h4 {
-    margin-bottom: 0.75rem;
-    font-size: 0.95rem;
+.footer h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: 600;
 }
 
-.container p,
-.container li {
-    font-size: 0.8rem;
-    color: #e5e7eb;
-    margin-bottom: 0.4rem;
+.footer p {
+    line-height: 1.8;
+    color: #d1d5db;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer p[style*="cursor: pointer"]:hover {
+    color: #60a5fa;
+    text-decoration: underline;
+}
+
+.footer ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-/* MAP */
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #d1d5db;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.footer ul li a:hover {
+    color: #60a5fa;
+    transform: translateX(5px);
+}
+
 .map {
-    background: rgba(255, 255, 255, 0.15);
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.8rem;
+    min-height: 200px;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
-/* BOTTOM BAR */
 .bottom {
-    background: #020617;
-    padding: 0.6rem 1rem;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
     text-align: center;
-    font-size: 0.7rem;
+    font-size: 14px;
+    color: #9ca3af;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* RESPONSIVE */
-@media (max-width: 900px) {
+/* Responsive */
+@media (max-width: 768px) {
     .container {
         grid-template-columns: 1fr;
+        gap: 30px;
     }
-
-    .map {
-        height: 120px;
+    
+    .top {
+        padding: 40px 20px 30px;
     }
 }
