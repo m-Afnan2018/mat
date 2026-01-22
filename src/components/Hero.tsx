@@ -79,8 +79,8 @@ export default function Hero({ data }: HeroProps) {
                             <input name="email" type="email" required placeholder="Enter Your Email" />
 
                             <div className={styles.row}>
-                                <input name="qualification" placeholder="Current Qualification" />
-                                <input name="course" placeholder="Desired Course" />
+                                <input name="qualification" required placeholder="Current Qualification" />
+                                <input name="course" required placeholder="Desired Course" />
                             </div>
 
                             <input name="city" placeholder="Preferred City" />
