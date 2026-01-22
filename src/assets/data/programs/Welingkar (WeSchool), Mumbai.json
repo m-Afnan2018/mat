@@ -174,17 +174,17 @@
 
       {
         "name": "qualification",
-        "type": "radio",
+        "type": "select",
         "options": ["Graduation Completed", "Graduation Appearing", "Other"]
       },
       {
         "name": "desiredCourse",
-        "type": "checkbox",
+        "type": "select",
         "options": ["MBA (Full-Time)", "PGDM (Full-Time)"]
       },
       {
         "name": "specialization",
-        "type": "checkbox",
+        "type": "select",
         "options": [
           "Marketing",
           "Finance",
@@ -197,7 +197,7 @@
       },
       {
         "name": "entranceExam",
-        "type": "checkbox",
+        "type": "select",
         "options": ["CAT", "XAT", "CMAT", "MAT", "None"]
       },
       {
@@ -207,7 +207,7 @@
       },
       {
         "name": "admissionPreference",
-        "type": "checkbox",
+        "type": "select",
         "options": [
           "Direct Admission",
           "Management Quota",

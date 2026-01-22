@@ -93,7 +93,12 @@ export default function LeadForm({ data }: LeadFormProps) {
     return (
         <section className={styles.wrapper}>
             <div className={styles.container}>
-                <h2 className={styles.title}>{data.title}</h2>
+                <div className={styles.texts}>
+                    <h2 className={styles.title}>{data.title}</h2>
+                    <h3 className={styles.description}>Connect with the Career Laksh team
+                        and start your MBA admission
+                        journey today.</h3>
+                </div>
 
                 <form className={styles.form} onSubmit={handleSubmit}>
                     {data.fields.map((field) => (
