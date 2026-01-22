@@ -70,7 +70,7 @@ export default function MATPage() {
 
       {/* LEAD FORM */}
       {/* <LeadForm data={data.leadForm} /> */}
-      <LeadForm data={leadFormData} />
+      {/* <LeadForm data={leadFormData} /> */}
 
       <Footer />
     </main>
