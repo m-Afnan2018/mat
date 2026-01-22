@@ -58,5 +58,8 @@
 
     .card {
         padding: 1.25rem 1rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
     }
 }
