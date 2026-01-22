@@ -34,9 +34,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     background: white;
-    padding: 1rem;
+    /* padding: 1rem; */
     border-radius: 1rem;
-    box-shadow: 0px 0px 10px 2px black;
+    /* box-shadow: 0px 0px 10px 2px black; */
     /* display: flex; */
     /* flex-direction: column; */
     gap: 1.25rem;

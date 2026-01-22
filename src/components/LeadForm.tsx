@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import styles from "./LeadForm.module.css";
+import Form from "./Form";
 
 export type Field = {
     name: string;
@@ -99,67 +100,9 @@ export default function LeadForm({ data }: LeadFormProps) {
                         and start your MBA admission
                         journey today.</h3>
                 </div>
-
-                <form className={styles.form} onSubmit={handleSubmit}>
-                    {data.fields.map((field) => (
-                        <div key={field.name} className={styles.field}>
-                            {field.type !== "checkbox" && field.type !== "radio" && (
-                                <label className={styles.label}>
-                                    {field.name.replace(/([A-Z])/g, " $1")}
-                                </label>
-                            )}
-
-                            {/* INPUTS */}
-                            {["text", "email", "tel"].includes(field.type) && (
-                                <input
-                                    type={field.type}
-                                    required={field.required}
-                                    onChange={(e) =>
-                                        handleChange(field.name, e.target.value, field.type)
-                                    }
-                                />
-                            )}
-
-                            {field.type === "select" && (
-                                <select
-                                    required={field.required}
-                                    onChange={(e) =>
-                                        handleChange(field.name, e.target.value, field.type)
-                                    }
-                                >
-                                    <option value="">Select</option>
-                                    {field.options?.map((opt) => (
-                                        <option key={opt} value={opt}>
-                                            {opt}
-                                        </option>
-                                    ))}
-                                </select>
-                            )}
-
-                            {(field.type === "radio" || field.type === "checkbox") && (
-                                <div className={styles.optionGroup}>
-                                    {field.options?.map((opt) => (
-                                        <label key={opt} className={styles.option}>
-                                            <input
-                                                type={field.type}
-                                                name={field.name}
-                                                value={opt}
-                                                onChange={() =>
-                                                    handleChange(field.name, opt, field.type)
-                                                }
-                                            />
-                                            <span>{opt}</span>
-                                        </label>
-                                    ))}
-                                </div>
-                            )}
-                        </div>
-                    ))}
-
-                    <button type="submit" className={styles.submit}>
-                        {data.submitText}
-                    </button>
-                </form>
+                <div className={styles.form}>
+                    <Form data={data} />
+                </div>
             </div>
         </section>
     );

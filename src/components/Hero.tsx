@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import styles from "./Hero.module.css";
+import Form from "./Form";
 
 interface HeroProps {
     data: {
@@ -9,10 +10,29 @@ interface HeroProps {
         heading: string;
         subheading: string;
         cta: string;
-    }
+    },
+    formData: LeadFormData;
 }
 
-export default function Hero({ data }: HeroProps) {
+export type Field = {
+    name: string;
+    type: "text" | "email" | "tel" | "select" | "radio" | "checkbox";
+    required?: boolean;
+    options?: string[];
+};
+
+export type LeadFormData = {
+    title: string;
+    submitText: string;
+    fields: Field[];
+};
+
+type LeadFormProps = {
+    data: LeadFormData;
+};
+
+
+export default function Hero({ data, formData }: HeroProps) {
     const [loading, setLoading] = useState(false);
     const [success, setSuccess] = useState(false);
     const [error, setError] = useState("");
@@ -73,7 +93,9 @@ export default function Hero({ data }: HeroProps) {
                     <div className={styles.formCard}>
                         <h3>Book Admission Counselling</h3>
 
-                        <form onSubmit={handleSubmit}>
+                        <Form data={formData} />
+
+                        {/* <form onSubmit={handleSubmit}>
                             <input name="name" required placeholder="Enter Your Name" />
                             <input name="phone" required placeholder="10-Digit Mobile Number" />
                             <input name="email" type="email" required placeholder="Enter Your Email" />
@@ -100,7 +122,7 @@ export default function Hero({ data }: HeroProps) {
                                     ❌ {error}
                                 </p>
                             )}
-                        </form>
+                        </form> */}
                     </div>
                 </div>
 

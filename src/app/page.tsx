@@ -38,7 +38,7 @@ export default function MATPage() {
       <Navbar />
 
       {/* HERO */}
-      <Hero data={data.hero} />
+      <Hero data={data.hero} formData={leadFormData} />
 
       {/* WHY CHOOSE / INTRO */}
       <Intro data={data.intro} />
