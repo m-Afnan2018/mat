@@ -83,7 +83,7 @@
 }
 
 .formCard button {
-    margin-top: 0.75rem;
+    margin-top: calc(15px + 0.4rem);
     width: 100%;
     padding: 0.7rem;
     background: #2563eb;
