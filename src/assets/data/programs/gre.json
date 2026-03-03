@@ -244,12 +244,12 @@
 
       {
         "name": "planningFor",
-        "type": "checkbox",
+        "type": "select",
         "options": ["MS", "MBA", "Other Masters", "Not Sure"]
       },
       {
         "name": "preferredCountries",
-        "type": "checkbox",
+        "type": "select",
         "options": [
           "USA",
           "Canada",

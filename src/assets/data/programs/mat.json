@@ -242,7 +242,7 @@
       { "name": "city", "type": "text" },
       {
         "name": "courseInterest",
-        "type": "checkbox",
+        "type": "select",
         "options": [
           "MBA (General)",
           "MBA (Marketing)",
@@ -254,7 +254,7 @@
       },
       {
         "name": "graduationStatus",
-        "type": "radio",
+        "type": "select",
         "options": ["Completed", "Final Year"]
       },
       {
@@ -264,7 +264,7 @@
       },
       {
         "name": "examStatus",
-        "type": "checkbox",
+        "type": "select",
         "options": ["MAT Appeared", "MAT Registered", "Other Exam", "No Exam"]
       },
       {
@@ -282,11 +282,6 @@
           "Tier-2/3",
           "Anywhere"
         ]
-      },
-      {
-        "name": "workExperience",
-        "type": "select",
-        "options": ["0–1 Year", "1–2 Years", "2+ Years", "Not Applicable"]
       }
     ]
   }

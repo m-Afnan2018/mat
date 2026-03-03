@@ -32,7 +32,7 @@
 
 .form {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     background: white;
     padding: 1rem;
     border-radius: 1rem;

@@ -19,27 +19,39 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Daksh Bhutia",
+    name: "Mohammad Afnan",
     image: "/test.jpg",
     text: "The team guided me perfectly in selecting the right MBA college. Their honest advice, fast responses, and clear information made the entire admission process smooth. I'm truly grateful for their support."
   },
   {
     id: 2,
-    name: "Ruturaj Singhania",
+    name: "Sandhya Rajput",
     image: "/test.jpg",
-    text: "I was confused about choosing between MBA and PGDM, but their counsellors explained everything so clearly. The guidance, patience, and transparency helped me take the right decision for my career."
+    text: "Career Laksh Consultancy is a helpful partner for students who want structured support to secure B.Tech admissions — especially when juggling multiple exams, cutoffs, and colleges. Their guidance can reduce stress and help secure better options during counselling."
   },
   {
     id: 3,
-    name: "Afnan Singhania",
+    name: "Obesh Khan",
     image: "/test.jpg",
-    text: "I was confused about choosing between MBA and PGDM, but their counsellors explained everything so clearly. The guidance, patience, and transparency helped me take the right decision for my career."
+    text: "Career Laksh Consultancy provides guidance and support to students seeking B.Tech engineering admissions into colleges like IPU (e.g., MAIT), SRM, Amity, and others in India. They help with application support, counselling, entrance exam preparation advice, and document handling."
   },
   {
     id: 4,
-    name: "Kalash Tripathi",
+    name: "Harsh Pandit",
     image: "/test.jpg",
-    text: "I was confused about choosing between MBA and PGDM, but their counsellors explained everything so clearly. The guidance, patience, and transparency helped me take the right decision for my career."
+    text: "I recently used Career Laksh Consultancy for support in securing BBA admission and overall I had a positive experience. The consultancy helped me understand my options, guided me through the application process, and assisted with counselling — making the entire journey much smoother than if I had done it alone."
+  },
+  {
+    id: 5,
+    name: "Tushar Garg",
+    image: "/test.jpg",
+    text: "I took guidance from Career Laksh Consultancy for my MBBS admission process, and the experience was smooth and well-organized. They explained the NEET counselling process clearly, helped with documentation, and guided me in filling college choices strategically. Their regular follow-ups ensured I didn’t miss any deadlines. Overall, it was a helpful experience, especially for someone new to medical admissions."
+  },
+  {
+    id: 6,
+    name: "Hamzah Imtiaz",
+    image: "/test.jpg",
+    text: "I approached Career Laksh Consultancy for B.Tech admission in Delhi. They explained eligibility criteria, counselling procedures, and helped shortlist colleges based on my rank."
   },
 ];
 

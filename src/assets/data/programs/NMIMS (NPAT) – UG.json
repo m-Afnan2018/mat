@@ -132,11 +132,11 @@
     "fields": [
       { "name": "fullName", "type": "text", "required": true },
       { "name": "mobile", "type": "tel", "required": true },
-      { "name": "email", "type": "email" },
+      { "name": "email", "type": "email",  "required": true },
 
       {
         "name": "coursePreference",
-        "type": "checkbox",
+        "type": "select",
         "options": [
           "BBA",
           "B.Com (Hons)",
@@ -147,7 +147,7 @@
       },
       {
         "name": "qualification",
-        "type": "radio",
+        "type": "select",
         "options": ["10+2 (Appeared/Completed)", "Diploma (Equivalent)"]
       },
       {
@@ -157,12 +157,12 @@
       },
       {
         "name": "examStatus",
-        "type": "checkbox",
+        "type": "select",
         "options": ["NPAT", "CUET", "Not Appeared"]
       },
       {
         "name": "admissionPreference",
-        "type": "checkbox",
+        "type": "select",
         "options": [
           "NPAT Score Based",
           "Direct Admission",

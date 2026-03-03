@@ -61,9 +61,48 @@
     cursor: pointer;
 }
 
+.phoneCta {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    bottom: 10%;
+    left: 20px;
+    right: 20px;
+    justify-content: space-between;
+    align-items: center;
+    top: 90%;
+}
+
+.whatsapp{
+    color: transparent;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.call{
+    cursor: pointer;
+    color: transparent;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 20px;
+    background: yellow;
+    padding: 8px;
+    filter: invert(1);
+}
+
 /* RESPONSIVE */
 @media (max-width: 900px) {
     .links {
         display: none;
+    }
+}
+
+@media (max-width: 768px){
+    .phoneCta {
+        display: flex;
     }
 }

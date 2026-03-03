@@ -153,27 +153,12 @@
 
       {
         "name": "coursePreference",
-        "type": "checkbox",
+        "type": "select",
         "options": ["B.Tech", "B.Tech (Lateral Entry)"]
       },
       {
-        "name": "specialization",
-        "type": "checkbox",
-        "options": [
-          "CSE",
-          "CSE – AI",
-          "CSE – Data Science",
-          "IT",
-          "ECE",
-          "Electrical",
-          "Mechanical",
-          "Civil",
-          "Not Decided"
-        ]
-      },
-      {
         "name": "qualification",
-        "type": "radio",
+        "type": "select",
         "options": ["10+2 (PCM)", "Diploma (Engineering)", "Appearing"]
       },
       {
@@ -183,7 +168,7 @@
       },
       {
         "name": "examStatus",
-        "type": "checkbox",
+        "type": "select",
         "options": [
           "JEE Main",
           "State Entrance Exam",
@@ -193,7 +178,7 @@
       },
       {
         "name": "admissionPreference",
-        "type": "checkbox",
+        "type": "select",
         "options": [
           "Direct Admission",
           "Management Quota",

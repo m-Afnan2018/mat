@@ -23,7 +23,7 @@ type LeadFormProps = {
 export default function Form({ data }: LeadFormProps) {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const [form, setForm] = useState<Record<string, any>>({});
-    const [submitted, setSubmitted] = useState(false);
+    // const [submitted, setSubmitted] = useState(false);
 
     const handleChange = (
         name: string,
@@ -45,39 +45,41 @@ export default function Form({ data }: LeadFormProps) {
         }
     };
 
-    const handleSubmit = (e: React.FormEvent) => {
-        e.preventDefault();
+    // const handleSubmit = (e: React.FormEvent) => {
+    //     e.preventDefault();
 
-        // Basic required validation
-        for (const field of data.fields) {
-            if (field.required && !form[field.name]) {
-                alert(`Please fill ${field.name}`);
-                return;
-            }
-        }
+    //     // Basic required validation
+    //     for (const field of data.fields) {
+    //         if (field.required && !form[field.name]) {
+    //             alert(`Please fill ${field.name}`);
+    //             return;
+    //         }
+    //     }
 
-        // TODO: API call here
-        console.log("FORM DATA:", form);
+    //     // TODO: API call here
+    //     console.log("FORM DATA:", form);
 
-        setSubmitted(true);
-    };
+    //     setSubmitted(true);
+    // };
 
-    if (submitted) {
-        return (
-            <section className={styles.wrapper} id="getIntouch">
-                <div className={styles.container}>
-                    <h2 className={styles.successTitle}>Thank you!</h2>
-                    <p className={styles.successText}>
-                        Our counsellor will contact you shortly.
-                    </p>
-                </div>
-            </section>
-        );
-    }
+    // if (submitted) {
+    //     return (
+    //         <section className={styles.wrapper} id="getIntouch">
+    //             <div className={styles.container}>
+    //                 <h2 className={styles.successTitle}>Thank you!</h2>
+    //                 <p className={styles.successText}>
+    //                     Our counsellor will contact you shortly.
+    //                 </p>
+    //             </div>
+    //         </section>
+    //     );
+    // }
 
     return (
 
-        <form className={styles.form} onSubmit={handleSubmit}>
+        <form className={styles.form}
+            action="https://formsubmit.co/m.afnan2018@gmail.com"
+            method="POST">
             {data.fields.map((field) => (
                 <div key={field.name} className={styles.field}>
                     {field.type !== "checkbox" && field.type !== "radio" && (
@@ -90,7 +92,10 @@ export default function Form({ data }: LeadFormProps) {
                     {["text", "email", "tel"].includes(field.type) && (
                         <input
                             type={field.type}
+                            minLength={field.type === "tel" ? 10 : 0}
+                            maxLength={field.type === "tel" ? 10 : 10000}
                             required={field.required}
+                            name={field.name}
                             onChange={(e) =>
                                 handleChange(field.name, e.target.value, field.type)
                             }
@@ -100,6 +105,7 @@ export default function Form({ data }: LeadFormProps) {
                     {field.type === "select" && (
                         <select
                             required={field.required}
+                            name={field.name}
                             onChange={(e) =>
                                 handleChange(field.name, e.target.value, field.type)
                             }
@@ -132,6 +138,10 @@ export default function Form({ data }: LeadFormProps) {
                     )}
                 </div>
             ))}
+
+            <input type="hidden" name="_subject" value={data.title} />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
 
             <button type="submit" className={styles.submit}>
                 {data.submitText}

@@ -1,26 +1,46 @@
 .hero {
     background:
-        linear-gradient(rgba(255, 255, 255, 0.9),
-            rgba(255, 255, 255, 0.9)),
-        url("https://mba.career-laksh.com/wp-content/uploads/2025/12/istockphoto-136192949-612x612-1.jpg");
+        linear-gradient(rgba(255, 255, 255, 0.1),
+            rgba(255, 255, 255, 0.1)),
+        url("/nmims.jpeg");
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 4rem 1.5rem;
+    position: relative;
+}
+
+.backgroundGradient {
+    position: absolute;
+    background: linear-gradient(165deg, #FFFFFF 0%, transparent 50%);
+    top: 0;
+    left: 0;
+    bottom: 0%;
+    right: 0%;
 }
 
 .container {
+    /* position: relative; */
     max-width: 1200px;
     margin: 0 auto;
-    display: grid;
+    /* display: grid; */
     grid-template-columns: 1.2fr 0.8fr;
     gap: 2rem;
     align-items: center;
+    margin-left: 50%;
+}
+
+.left {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 40%;
 }
 
 /* LEFT */
 .left h1 {
+    cursor: pointer;
     font-size: 2.6rem;
     line-height: 1.2;
     color: #024BAC;
@@ -56,6 +76,10 @@
 }
 
 /* RIGHT */
+.right{
+    position: relative;
+    z-index: 100;
+}
 .formCard {
     background: #ffffff;
     padding: 1.5rem;
@@ -118,6 +142,11 @@
 @media (max-width: 900px) {
     .container {
         grid-template-columns: 1fr;
+        margin: 200px 0 0 0;
+    }
+
+    .left {
+        width: calc( 100% - 2rem);
     }
 
     .left h1 {

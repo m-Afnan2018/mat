@@ -148,12 +148,12 @@
       { "name": "email", "type": "email" },
       {
         "name": "coursePreference",
-        "type": "checkbox",
+        "type": "select",
         "options": ["B.Tech", "B.Tech (Lateral Entry)"]
       },
       {
         "name": "specialization",
-        "type": "checkbox",
+        "type": "select",
         "options": [
           "CSE",
           "CSE (AI)",
@@ -168,7 +168,7 @@
       },
       {
         "name": "qualification",
-        "type": "radio",
+        "type": "select",
         "options": ["10+2 (PCM)", "Diploma", "Appearing"]
       },
       {
@@ -178,12 +178,12 @@
       },
       {
         "name": "examStatus",
-        "type": "checkbox",
+        "type": "select",
         "options": ["JEE Main", "State Exam", "University Test", "Not Appeared"]
       },
       {
         "name": "admissionPreference",
-        "type": "checkbox",
+        "type": "select",
         "options": [
           "Direct Admission",
           "Management Quota",

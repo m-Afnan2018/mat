@@ -48,7 +48,7 @@ export default function Hero({ data, formData }: HeroProps) {
 
         try {
             const res = await fetch(
-                "https://formsubmit.co/ajax/careerlaksh2@gmail.com",
+                "https://formsubmit.co/ajax/careerlaksh123@gmail.com",
                 {
                     method: "POST",
                     headers: { Accept: "application/json" },
@@ -80,9 +80,9 @@ export default function Hero({ data, formData }: HeroProps) {
     return (
         <section className={styles.hero}>
             <div className={styles.container}>
-
+                <div className={styles.backgroundGradient} />
                 {/* LEFT */}
-                <div className={styles.left}>
+                <div className={styles.left} onClick={() => window.location.href = "https://career-laksh.com/nmims-anil-surendra-school-commerce"}>
                     <h1>{data.title}</h1>
                     {data.heading}
                     <p className={styles.sub}>{data.subheading}</p>

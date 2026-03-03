@@ -4,10 +4,10 @@
 // import data from "@/assets/data/programs/Maharaja Agrasen University B.Tech.json"
 // import data from "@/assets/data/programs/Maharaja Agrasen University – B.Tech.json"
 // import data from "@/assets/data/programs/mat.json";
-// import data from "@/assets/data/programs/NMIMS (NPAT) – UG.json"
+import data from "@/assets/data/programs/NMIMS (NPAT) – UG.json"
 // import data from "@/assets/data/programs/Shiv Nadar University – B.Tech.json"
 // import data from "@/assets/data/programs/SRM University – B.Tech.json"
-import data from "@/assets/data/programs/Welingkar (WeSchool), Mumbai.json"
+// import data from "@/assets/data/programs/Welingkar (WeSchool), Mumbai.json"
 // import data from "@/assets/data/programs/Welingkar (WeSchool), Mumbai2.json"
 
 // Layout sections
@@ -47,8 +47,8 @@ export default function MATPage() {
       <Stats items={data.stats} />
 
       {/* MAIN DATA TABLES */}
-      {data.tables.map((table) => (
-        <section key={table.id}>
+      {data.tables.map((table, index) => (
+        <section key={table.id} id={`fees_${index}`}>
           <DataTable table={table} />
         </section>
       ))}
